@@ -1,0 +1,33 @@
+.pacman{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.pacmanD {
+    background-size: contain;
+    background-image: url(../Images/pacmanD-removebg-preview.png);
+}
+
+.pacmanU {
+    background-size: contain;
+    background-image: url(../Images/pacmanU-removebg-preview.png);
+}
+
+.pacmanR,.pacmanN {
+    background-size: contain;
+    background-image: url(../Images/pacmanR-removebg-preview.png);
+}
+
+.pacmanL {
+    background-size: contain;
+    background-image: url(../Images/pacmanL-removebg-preview.png);
+}
+
+@media (max-width: 600px){
+    .pacman{
+        width: 25px;
+        height: 25px;
+        display: inline-block;
+    }
+}

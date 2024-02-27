@@ -1,0 +1,33 @@
+.ghost{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.ghostD {
+   background-size: contain;
+    background-image: url(../Images/ghostD-removebg-preview.png);
+}
+
+.ghostU {
+   background-size: contain;
+    background-image: url(../Images/ghostU-removebg-preview.png);
+}
+
+.ghostR {
+    background-size: contain;
+    background-image: url(../Images/ghostR-removebg-preview.png);
+}
+
+.ghostL {
+    background-size: contain;
+    background-image: url(../Images/ghostL-removebg-preview.png);
+}
+
+@media (max-width: 600px){
+    .ghost{
+        width: 25px;
+        height: 25px;
+        display: inline-block;
+    }
+}
